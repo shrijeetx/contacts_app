@@ -1,0 +1,36 @@
+name: contact
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.5 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  velocity_x: ^3.5.1
+  sqflite: ^2.0.3+1
+  path_provider: ^2.0.11
+  shared_preferences: ^2.0.15
+  flutter_phone_direct_caller: ^2.1.1
+  flutter_native_splash: any
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+flutter_native_splash:
+  color: "#1C1C1E"
+  image: assets/icons/Google_Contacts_logo.png
+
+flutter:
+
+  uses-material-design: true
